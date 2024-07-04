@@ -3,11 +3,11 @@ import communityLogo from '../../Images/site_assets/main_t.webp'
 import whatsapp from '../../Images/site_assets/WhatsApp.svg'
 import gmail from '../../Images/site_assets/gmail.svg'
 import './footer.css'
-
 //import x LOGO
 
 import x from '../../Images/site_assets/X-white.svg';
-
+import contact from '../../Images/contact.pdf'
+import tc from '../../Images/t&c.pdf'
 
 const Footer = () => {
     return (
@@ -81,6 +81,18 @@ const Footer = () => {
                                     resourciocommunity22@gmail.com
                                 </a>
                             </div>
+                            <div className="wrapper" >
+                                <a href={contact} target='_blank' className="footer-link" rel='noreferrer'>
+                                    Contact details
+                                </a>
+                            </div>
+                            
+                            <div className="wrapper" >
+                                <a href={tc} target='_blank' className="footer-link" rel='noreferrer'>
+                                    Terms and Conditions
+                                </a>
+                            </div>
+                            
                         </div>
                     </div>
                 </div>
