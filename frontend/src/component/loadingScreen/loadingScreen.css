@@ -1,0 +1,27 @@
+.loading_screen{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #dfe1eb6b;
+}
+
+
+.loading_image{
+    position: absolute;
+    width: 280px;
+    height: 280px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    animation: keepBlinking 900ms alternate infinite;
+}
+
+
+@keyframes keepBlinking{
+    0%{
+        opacity: 0.6;
+    }
+    100%{
+        opacity: 1;
+    }
+}

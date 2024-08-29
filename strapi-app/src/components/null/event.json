@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_null_events",
+  "info": {
+    "displayName": "Event",
+    "icon": "attachment"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "exist": {
+      "type": "boolean"
+    },
+    "body": {
+      "type": "blocks"
+    },
+    "media": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

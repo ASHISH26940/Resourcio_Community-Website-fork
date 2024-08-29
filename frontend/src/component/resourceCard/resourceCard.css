@@ -1,0 +1,72 @@
+.box_card {
+    background: white;
+    border-radius: 20px;
+    transition: 0.3s;
+    box-shadow: rgb(6 6 6 / 20%) 0px 9px 8px 0px;
+    transition: all 300 ease-in-out;
+    position: relative;
+    padding: 20px;
+}
+
+.box_card:hover {
+    transform: scale(1.05);
+}
+
+.line{
+    border-top: 1px solid rgb(204 204 204);
+}
+
+.box_child{
+    position: absolute;
+    top: -25px;
+    left: 40px;
+}
+
+.box_child img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.box_content {
+    padding: 1.3rem 1.3rem 2rem 1.3rem;
+    margin-bottom: 20px;
+}
+
+.box_content .resource-title {
+    margin: 1rem 0;
+    color: #22447b;
+}
+
+.box_content .resource-text {
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    color: #6b82a7;
+    margin: 0;
+}
+
+.resource-button {
+    display: block;
+    text-transform: lowercase;
+    letter-spacing: 0.1em;
+    padding: 5px 0px;
+    margin: 10px 0px;
+    /* font-weight: 500; */
+    border-radius: 20px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0%;
+    color: black;
+}
+
+.resource-button:hover {
+    transition: 0.26s ease-out;
+    text-decoration: underline;
+}
+
+@media screen and (min-width:768px) {
+    .box_card {
+        display: grid;
+        grid-template-rows: 1fr;
+    }
+}

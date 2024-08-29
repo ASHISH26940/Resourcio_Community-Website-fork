@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "markdowns",
+  "info": {
+    "singularName": "markdown",
+    "pluralName": "markdowns",
+    "displayName": "Markdown"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "markDown": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "markDown"
+    },
+    "task": {
+      "type": "richtext"
+    }
+  }
+}
